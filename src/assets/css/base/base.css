@@ -1,0 +1,22 @@
+@layer base {
+  html {
+    @apply text-black;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply inline-block  rounded-sm border border-gray-300 p-2;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply mb-7;
+  }
+}
