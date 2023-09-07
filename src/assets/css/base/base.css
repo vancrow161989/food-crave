@@ -1,6 +1,10 @@
 @layer base {
-  html {
-    @apply text-black;
+  /* html {
+    
+  } */
+
+  body {
+    @apply text-black dark:text-white dark:bg-black;
   }
 
   input,
